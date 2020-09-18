@@ -1,6 +1,6 @@
 # Recipe App API
 
-Source code for my Udemy course Build a [Backend REST API with Python & Django - Advanced](http://udemy.com/django-python-advanced/).
+Source code for our course: Build a [Backend REST API with Python & Django - Advanced](https://londonappdeveloper.com/product/build-a-backend-rest-api-with-python-django-advanced/).
 
 The course teaches how to build a fully functioning REST API using:
 
