@@ -218,7 +218,7 @@ class RecipeImageUploadTests(TestCase):
         self.recipe.image.delete()
 
     def test_upload_image_to_recipe(self):
-        """Test uploading an email to recipe"""
+        """Test uploading an image to recipe"""
         url = image_upload_url(self.recipe.id)
         with tempfile.NamedTemporaryFile(suffix='.jpg') as ntf:
             img = Image.new('RGB', (10, 10))
