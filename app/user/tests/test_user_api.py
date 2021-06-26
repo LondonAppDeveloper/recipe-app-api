@@ -62,6 +62,7 @@ class PublicUserApiTests(TestCase):
             email=payload['email']
         ).exists()
         self.assertFalse(user_exists)
+        self.assertEqual(res.data['password'][0].code, 'min_length')
 
     def test_create_token_for_user(self):
         """Test that a token is created for the user"""
